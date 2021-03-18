@@ -11,3 +11,5 @@ panic="abort"
 
 [profile.release]
 panic="abort"
+
+build-std = ["core", "compiler_builtins"]
