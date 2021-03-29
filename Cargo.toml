@@ -1,5 +1,5 @@
 [package]
-name = "ADX"
+name = "ABX"
 version = "0.1.0"
 authors = ["Thanapat Chotipun <devpatrick.cho@gmail.com>"]
 edition = "2018"
@@ -12,4 +12,5 @@ panic="abort"
 [profile.release]
 panic="abort"
 
-build-std = ["core", "compiler_builtins"]
+[dependencies]
+bootloader = "0.9.8"
